@@ -9,7 +9,7 @@ include:
 
   # Dongle mode (dongle as central)
   - board: xiao_ble//zmk
-    shield: forager_dongle
+    shield: forager_dongle prospector_adapter
     snippet: studio-rpc-usb-uart
     artifact-name: forager_dongle-xiao_ble
   - board: xiao_ble//zmk
