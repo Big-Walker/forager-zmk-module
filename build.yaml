@@ -14,7 +14,7 @@ include:
     artifact-name: forager_dongle-xiao_ble
   - board: xiao_ble
     shield: forager_left rgbled_adapter
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n  # set left to peripheral
     artifact-name: forager_left-xiao_ble-dongle
   - board: xiao_ble
     shield: forager_right rgbled_adapter
