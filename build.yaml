@@ -4,7 +4,7 @@ include:
   - board: xiao_ble//zmk
     shield: forager_left rgbled_adapter
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_SPLIT_BLE_SUBRATING=y -DCONFIG_ZMK_IDLE_TIMEOUT=10000 -DCONFIG_ZMK_SPLIT_BLE_SUBRATE_DORMANT_DELAY=10000
+    cmake-args: -DCONFIG_ZMK_SPLIT_BLE_SUBRATING=y -DCONFIG_ZMK_IDLE_TIMEOUT=10000 -DCONFIG_ZMK_SPLIT_BLE_SUBRATE_DORMANT_DELAY=10000 -DCONFIG_BT_PERIPHERAL_PREF_MIN_INT=12
   - board: xiao_ble//zmk
     shield: forager_right rgbled_adapter
     cmake-args: -DCONFIG_ZMK_SPLIT_BLE_SUBRATING=y
