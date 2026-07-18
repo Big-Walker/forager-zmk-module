@@ -50,7 +50,7 @@
         base {
             bindings = <
 &kp Q  &kp W           &kp F        &kp P        &kp B      &kp J  &kp L       &kp U        &kp Y        &kp SEMI
-&kp A  &mt LEFT_GUI R  &mt LCTRL S  &mt LSHFT T  &kp G      &kp M  &mt LGUI N  &mt LALT E   &mt LCTRL I  &kp O
+&mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp G      &kp M  &mt LSHFT N  &mt LCTRL E   &mt LALT I  &mt RGUI O
 &kp Z  &kp X           &kp C        &kp D        &kp V      &kp K  &kp H       &kp COMMA    &kp DOT      &kp FSLH
                                     &mo 1        &kp LSHFT         &kp LSHFT   &lt 2 SPACE
             >;
@@ -67,7 +67,7 @@
 
         nav {
             bindings = <
-&trans  &trans     &trans    &trans    &trans     &kp PAGE_UP    &kp UP    &trans    &trans     &kp DEL
+&trans  &trans     &trans    &trans    &trans     &kp PAGE_UP    &trans    &kp UP    &trans     &kp DEL
 &trans  &kp LCTRL  &kp LALT  &kp LGUI  &trans     &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSLH
 &trans  &trans     &trans    &trans    &trans     &trans         &kp HOME  &kp END   &trans     &trans
                              &mo 1     &kp LSHFT                 &trans    &trans
